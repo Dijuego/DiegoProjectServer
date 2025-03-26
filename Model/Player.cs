@@ -13,24 +13,17 @@ public partial class Player
     [Column("id")]
     public int Id { get; set; }
 
-    public int Number { get; set; }
-
     [StringLength(50)]
     [Unicode(false)]
     public string Name { get; set; } = null!;
 
-    [Column(TypeName = "decimal(2, 1)")]
-    public decimal Points { get; set; }
+    public double Points { get; set; }
 
-    [Column(TypeName = "decimal(2, 1)")]
-    public decimal Rebunds { get; set; }
+    public double Rebunds { get; set; }
 
-    [Column(TypeName = "decimal(2, 1)")]
-    public decimal Assists { get; set; }
+    public double Assists { get; set; }
 
-    [StringLength(7)]
-    [Unicode(false)]
-    public string Minutes { get; set; } = null!;
+    public double Minutes { get; set; }
 
     [Column("TeamID")]
     public int TeamId { get; set; }

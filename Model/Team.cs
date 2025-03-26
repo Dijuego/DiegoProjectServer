@@ -13,11 +13,13 @@ public partial class Team
     [Column("id")]
     public int Id { get; set; }
 
-    [MaxLength(50)]
-    public byte[] Name { get; set; } = null!;
+    [StringLength(50)]
+    [Unicode(false)]
+    public string Name { get; set; } = null!;
 
-    [MaxLength(5)]
-    public byte[] Conference { get; set; } = null!;
+    [StringLength(50)]
+    [Unicode(false)]
+    public string Conference { get; set; } = null!;
 
     public int Win { get; set; }
 

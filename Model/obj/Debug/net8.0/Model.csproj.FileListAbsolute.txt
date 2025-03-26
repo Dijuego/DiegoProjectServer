@@ -12,3 +12,4 @@ C:\Users\dh743976\source\repos\DiegoProjectServer\Model\obj\Debug\net8.0\refint\
 C:\Users\dh743976\source\repos\DiegoProjectServer\Model\obj\Debug\net8.0\Model.pdb
 C:\Users\dh743976\source\repos\DiegoProjectServer\Model\obj\Debug\net8.0\Model.genruntimeconfig.cache
 C:\Users\dh743976\source\repos\DiegoProjectServer\Model\obj\Debug\net8.0\ref\Model.dll
+C:\Users\dh743976\source\repos\DiegoProjectServer\Model\obj\Debug\net8.0\Model.sourcelink.json

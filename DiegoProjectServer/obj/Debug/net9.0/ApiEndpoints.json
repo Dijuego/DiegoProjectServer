@@ -109,6 +109,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DiegoProjectServer.Controllers.PlayersController",
+    "Method": "GetPlayerWithTeam",
+    "RelativePath": "api/Players/PlayerTeam/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DiegoProjectServer.Dtos.PlayerTeam",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "DiegoProjectServer.Controllers.TeamsController",
     "Method": "GetTeams",
     "RelativePath": "api/Teams",
@@ -216,6 +242,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DiegoProjectServer.Controllers.TeamsController",
+    "Method": "GetTeamPlayers",
+    "RelativePath": "api/Teams/GetTeamCount/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DiegoProjectServer.Dtos.TeamPlayers",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "DiegoProjectServer.Controllers.WeatherForecastController",

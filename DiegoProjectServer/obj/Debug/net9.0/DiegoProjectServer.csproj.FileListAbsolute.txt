@@ -274,3 +274,4 @@ C:\Users\dh743976\source\repos\DiegoProjectServer\DiegoProjectServer\obj\Debug\n
 C:\Users\dh743976\source\repos\DiegoProjectServer\DiegoProjectServer\obj\Debug\net9.0\DiegoProjectServer.pdb
 C:\Users\dh743976\source\repos\DiegoProjectServer\DiegoProjectServer\obj\Debug\net9.0\DiegoProjectServer.genruntimeconfig.cache
 C:\Users\dh743976\source\repos\DiegoProjectServer\DiegoProjectServer\obj\Debug\net9.0\ref\DiegoProjectServer.dll
+C:\Users\dh743976\source\repos\DiegoProjectServer\DiegoProjectServer\obj\Debug\net9.0\DiegoProjectServer.sourcelink.json

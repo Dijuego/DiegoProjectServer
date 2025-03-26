@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DiegoProjectServer.Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Model;
+using NuGet.Packaging;
 
 namespace DiegoProjectServer.Controllers
 {
@@ -97,6 +99,25 @@ namespace DiegoProjectServer.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();
+        }
+
+        [HttpGet("GetTeamCount/{id}")]
+        public async Task<ActionResult<TeamPlayers>> GetTeamPlayers(int id)
+        {
+            TeamPlayers team = await _context.Teams.Where(team => team.Id == id)
+                .Select(team =>
+                new TeamPlayers
+                {
+                    Id = team.Id,
+                    Name = team.Name,
+                    Conference = team.Conference,
+                    Win = team.Win,
+                    Loss = team.Loss,
+                    PlayerCount = team.Players.Count()
+                }
+                ).SingleAsync();
+            return team;
+
         }
 
         private bool TeamExists(int id)

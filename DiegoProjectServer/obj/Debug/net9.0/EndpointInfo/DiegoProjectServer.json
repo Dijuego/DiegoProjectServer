@@ -190,6 +190,46 @@
         }
       }
     },
+    "/api/Players/PlayerTeam/{id}": {
+      "get": {
+        "tags": [
+          "Players"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlayerTeam"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlayerTeam"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlayerTeam"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Teams": {
       "get": {
         "tags": [
@@ -375,6 +415,46 @@
         }
       }
     },
+    "/api/Teams/GetTeamCount/{id}": {
+      "get": {
+        "tags": [
+          "Teams"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TeamPlayers"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TeamPlayers"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TeamPlayers"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -424,10 +504,6 @@
             "type": "integer",
             "format": "int32"
           },
-          "number": {
-            "type": "integer",
-            "format": "int32"
-          },
           "name": {
             "maxLength": 50,
             "minLength": 0,
@@ -447,10 +523,8 @@
             "format": "double"
           },
           "minutes": {
-            "maxLength": 7,
-            "minLength": 0,
-            "type": "string",
-            "nullable": true
+            "type": "number",
+            "format": "double"
           },
           "teamId": {
             "type": "integer",
@@ -458,6 +532,40 @@
           },
           "team": {
             "$ref": "#/components/schemas/Team"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlayerTeam": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "points": {
+            "type": "number",
+            "format": "double"
+          },
+          "rebounds": {
+            "type": "number",
+            "format": "double"
+          },
+          "assists": {
+            "type": "number",
+            "format": "double"
+          },
+          "minutes": {
+            "type": "number",
+            "format": "double"
+          },
+          "teamName": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -471,14 +579,14 @@
           },
           "name": {
             "maxLength": 50,
+            "minLength": 0,
             "type": "string",
-            "format": "byte",
             "nullable": true
           },
           "conference": {
-            "maxLength": 5,
+            "maxLength": 50,
+            "minLength": 0,
             "type": "string",
-            "format": "byte",
             "nullable": true
           },
           "win": {
@@ -495,6 +603,36 @@
               "$ref": "#/components/schemas/Player"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TeamPlayers": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "conference": {
+            "type": "string",
+            "nullable": true
+          },
+          "win": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "loss": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "playerCount": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
