@@ -18,6 +18,8 @@ namespace DiegoProjectServer.Dtos
 
         public double Minutes { get; set; }
 
+        public int TeamId { get; set; }
+
         public string TeamName { get; set; } = null!;
     }
 }

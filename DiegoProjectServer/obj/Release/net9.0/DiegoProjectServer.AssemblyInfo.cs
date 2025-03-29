@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("1f43c8e4-aa67-42b9-b782-265303f7daa5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiegoProjectServer")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b61714f43378e2b8127ac4775fa7e442652cb9c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiegoProjectServer")]

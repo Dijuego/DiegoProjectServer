@@ -115,6 +115,7 @@ namespace DiegoProjectServer.Controllers
                     Rebounds = player.Rebunds,
                     Assists = player.Assists,
                     Minutes = player.Minutes,
+                    TeamId = player.TeamId,
                     TeamName = player.Team.Name
                 }
             ).SingleAsync();
