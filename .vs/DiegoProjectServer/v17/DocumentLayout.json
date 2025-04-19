@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F025A892-1457-4802-ADBC-B24507D98214}|Model\\Model.csproj|c:\\users\\dh743976\\source\\repos\\diegoprojectserver\\model\\nbaplayerscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F025A892-1457-4802-ADBC-B24507D98214}|Model\\Model.csproj|solutionrelative:model\\nbaplayerscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoprojectserver\\diegoprojectserver\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|solutionrelative:diegoprojectserver\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoprojectserver\\diegoprojectserver\\dtos\\teamplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|solutionrelative:diegoprojectserver\\dtos\\teamplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoprojectserver\\diegoprojectserver\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|solutionrelative:diegoprojectserver\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoprojectserver\\diegoprojectserver\\dtos\\playerteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|solutionrelative:diegoprojectserver\\dtos\\playerteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F025A892-1457-4802-ADBC-B24507D98214}|Model\\Model.csproj|c:\\users\\dh743976\\source\\repos\\diegoprojectserver\\model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F025A892-1457-4802-ADBC-B24507D98214}|Model\\Model.csproj|solutionrelative:model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F025A892-1457-4802-ADBC-B24507D98214}|Model\\Model.csproj|c:\\users\\dh743976\\source\\repos\\diegoprojectserver\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F025A892-1457-4802-ADBC-B24507D98214}|Model\\Model.csproj|solutionrelative:model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,19 +43,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NbaPlayersContext.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\Model\\NbaPlayersContext.cs",
+              "RelativeDocumentMoniker": "Model\\NbaPlayersContext.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\Model\\NbaPlayersContext.cs",
+              "RelativeToolTip": "Model\\NbaPlayersContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:45:56.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeamPlayers.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\Dtos\\TeamPlayers.cs",
+              "RelativeDocumentMoniker": "DiegoProjectServer\\Dtos\\TeamPlayers.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\Dtos\\TeamPlayers.cs",
+              "RelativeToolTip": "DiegoProjectServer\\Dtos\\TeamPlayers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:25:13.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "DiegoProjectServer\\Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "DiegoProjectServer\\Controllers\\TeamsController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:24:44.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\Model\\Team.cs",
+              "RelativeDocumentMoniker": "Model\\Team.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\Model\\Team.cs",
+              "RelativeToolTip": "Model\\Team.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:22:49.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\Model\\Player.cs",
+              "RelativeDocumentMoniker": "Model\\Player.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\Model\\Player.cs",
+              "RelativeToolTip": "Model\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:20:24.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayersController.cs",
               "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\Controllers\\PlayersController.cs",
               "RelativeDocumentMoniker": "DiegoProjectServer\\Controllers\\PlayersController.cs",
               "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\Controllers\\PlayersController.cs",
               "RelativeToolTip": "DiegoProjectServer\\Controllers\\PlayersController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAmwHUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAmwHoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T21:32:16.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PlayerTeam.cs",
               "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\Dtos\\PlayerTeam.cs",
               "RelativeDocumentMoniker": "DiegoProjectServer\\Dtos\\PlayerTeam.cs",
@@ -43,8 +124,7 @@
               "RelativeToolTip": "DiegoProjectServer\\Dtos\\PlayerTeam.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T21:31:47.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T21:31:47.885Z"
             }
           ]
         }

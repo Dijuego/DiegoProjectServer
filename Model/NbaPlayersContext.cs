@@ -25,6 +25,7 @@ public partial class NbaPlayersContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Player>(entity =>
         {
             entity.HasOne(d => d.Team).WithMany(p => p.Players)

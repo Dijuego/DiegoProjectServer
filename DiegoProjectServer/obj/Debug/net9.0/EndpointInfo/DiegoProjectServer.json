@@ -563,6 +563,10 @@
             "type": "number",
             "format": "double"
           },
+          "teamId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "teamName": {
             "type": "string",
             "nullable": true

@@ -105,7 +105,7 @@ namespace DiegoProjectServer.Controllers
         [HttpGet("PlayerTeam/{id}")]
         public async Task<ActionResult<PlayerTeam>> GetPlayerWithTeam(int id)
         {
-            PlayerTeam player = await _context.Players.Where(player => player.Id == id)
+            PlayerTeam player = await _context.Players.Include(player => player.Team).Where(player => player.Id == id)
                 .Select(player =>
                 new PlayerTeam
                 {
