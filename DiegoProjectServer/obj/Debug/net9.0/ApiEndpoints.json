@@ -246,7 +246,7 @@
   {
     "ContainingType": "DiegoProjectServer.Controllers.TeamsController",
     "Method": "GetTeamPlayers",
-    "RelativePath": "api/Teams/GetTeamCount/{id}",
+    "RelativePath": "api/Teams/GetTeamPlayers/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

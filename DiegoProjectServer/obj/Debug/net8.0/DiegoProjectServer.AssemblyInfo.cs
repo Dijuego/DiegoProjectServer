@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiegoProjectServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f34742675f182ca817150a4e101dddf87c14e6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiegoProjectServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiegoProjectServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

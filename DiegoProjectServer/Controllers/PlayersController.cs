@@ -121,6 +121,24 @@ namespace DiegoProjectServer.Controllers
             ).SingleAsync();
             return player;
         }
+        [HttpGet("PlayersTeam")]
+        public async Task<ActionResult<IEnumerable<PlayerTeam>>> GetPlayersWithTeam()
+        {
+            List <PlayerTeam> players = await _context.Players.Include(player => player.Team).Select(player =>
+                new PlayerTeam
+                {
+                    Id = player.Id,
+                    Name = player.Name,
+                    Points = player.Points,
+                    Rebounds = player.Rebunds,
+                    Assists = player.Assists,
+                    Minutes = player.Minutes,
+                    TeamId = player.TeamId,
+                    TeamName = player.Team.Name
+                }
+            ).ToListAsync();
+            return players;
+        }
 
         private bool PlayerExists(int id)
         {

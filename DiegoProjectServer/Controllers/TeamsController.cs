@@ -101,7 +101,7 @@ namespace DiegoProjectServer.Controllers
             return NoContent();
         }
 
-        [HttpGet("GetTeamCount/{id}")]
+        [HttpGet("GetTeamPlayers/{id}")]
         public async Task<ActionResult<TeamPlayers>> GetTeamPlayers(int id)
         {
             TeamPlayers team = await _context.Teams.Where(team => team.Id == id)
@@ -113,7 +113,7 @@ namespace DiegoProjectServer.Controllers
                     Conference = team.Conference,
                     Win = team.Win,
                     Loss = team.Loss,
-                    PlayerCount = team.Players.Count()
+                    Players = team.Players.ToList()
                 }
                 ).SingleAsync();
             return team;

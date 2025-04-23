@@ -415,7 +415,7 @@
         }
       }
     },
-    "/api/Teams/GetTeamCount/{id}": {
+    "/api/Teams/GetTeamPlayers/{id}": {
       "get": {
         "tags": [
           "Teams"
@@ -634,9 +634,12 @@
             "type": "integer",
             "format": "int32"
           },
-          "playerCount": {
-            "type": "integer",
-            "format": "int32"
+          "players": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Player"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

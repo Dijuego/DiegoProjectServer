@@ -18,6 +18,6 @@ namespace DiegoProjectServer.Dtos
 
         public int Loss { get; set; }
 
-        public int PlayerCount { get; set; }
+        public List<Player>? Players { get; set; }
     }
 }
