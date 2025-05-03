@@ -172,6 +172,26 @@
   },
   {
     "ContainingType": "DiegoProjectServer.Controllers.SeedController",
+    "Method": "importPlayersAsync",
+    "RelativePath": "api/Seed/Players",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DiegoProjectServer.Controllers.SeedController",
+    "Method": "importTeamsAsync",
+    "RelativePath": "api/Seed/Teams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DiegoProjectServer.Controllers.SeedController",
     "Method": "importUsersAsync",
     "RelativePath": "api/Seed/Users",
     "HttpMethod": "POST",

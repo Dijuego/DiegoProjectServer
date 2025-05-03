@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoprojectserver\\diegoprojectserver\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|solutionrelative:diegoprojectserver\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoprojectserver\\diegoprojectserver\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358EDDB6-76DE-4B30-9B5B-D5F6AB865AB3}|DiegoProjectServer\\DiegoProjectServer.csproj|solutionrelative:diegoprojectserver\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JwtHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\JwtHandler.cs",
-              "RelativeDocumentMoniker": "DiegoProjectServer\\JwtHandler.cs",
-              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\JwtHandler.cs",
-              "RelativeToolTip": "DiegoProjectServer\\JwtHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T22:34:49.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "DiegoProjectServer\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoProjectServer\\DiegoProjectServer\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "DiegoProjectServer\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T22:34:19.622Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
